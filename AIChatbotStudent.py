@@ -85,14 +85,14 @@ async def main():
     running = True # for python just ensure that your True False choices have a capital T or F respectively and youre good to go on boolean values
 
     while(running == True):
-        userInput("Would you like this loop to stop? (Y/N): ")
-        match userInput.lower:
+        userInput = input("Would you like this loop to stop? (Y/N): ")
+        match userInput.lower():
             case 'y':
                 print("alright suit yourself loop de loop it is!")
-                running == True
+                running = True
             case 'n':
                 print("Fair enough I wouldn't want to loop either this is kind of a boring loop.")
-                running == False
+                running = False
             case _:
                 print("Thats not an option wanna try again? oh also do you remember what the _ character does in a match case statemet?")
 
@@ -105,3 +105,4 @@ async def main():
 if __name__ == "__main__":
 
     asyncio.run(main())
+
