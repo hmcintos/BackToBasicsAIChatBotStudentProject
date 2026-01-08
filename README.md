@@ -1,2 +1,2 @@
 # BackToBasicsAIChatBotStudentProject
-This is a Repo for the nonprofit group BackToBasics to track their AI chatbot project and source code
+This is a Repo for the AI ChatBot project. Go to the Instructions PDF to see how to get started with the code. 
