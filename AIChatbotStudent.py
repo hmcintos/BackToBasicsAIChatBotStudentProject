@@ -35,8 +35,14 @@ def AI():
 async def main():
 
     menu()
+
+    #---------------------------------------------------------------Example Code-----------------------------------------------------------------
+    # Anything below this line is example code designed to help you understand python and figure out how to achieve your goal. Feel free to comment any sections of it out with a #
+    # at the beginning of the code line. Use this as reference this is set up to show you all the fundamentals you need to know to get the menu portion of this project done. 
+    
     userInput = input("What is your name?: ") # this is how python handles user input using the input function with a string inside the parenthese you can ask a question and take in a response
                                                 # much better than dealing with scanner right?
+   
     print("Hi! " + userInput + " I hope you have a great day! if you need help figuring this assignment out don't worry, you're smart. \n Take a deep breath break the problem down and start by tackling the easiest bit first.")
     # when adding in variables to strings this works exactly like in java. 
 
@@ -72,6 +78,7 @@ async def main():
 
         case _:
             print("Thats not one of the options. In Match case statements the _ character is a special character which denots anything not covered by the previous cases. \n It basically works like an Else statement.")
+            
     # you may have noticed I haven't been specifying data types while writing this code. Thats because python is a smart coding language and typically will assume what datatype youre using
     # boolean values ar no exceptions lets look at a while loop using a boolean value
 
@@ -94,6 +101,7 @@ async def main():
     # Figure that out and youll be on your way in no time to mastering python and making our AI helpers. 
 
 
-
+# don't touch this part of the code its important for the code to run correctly.
 if __name__ == "__main__":
+
     asyncio.run(main())
